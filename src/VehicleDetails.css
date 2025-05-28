@@ -1,0 +1,93 @@
+/* VehicleDetails.css */
+
+.vehicle-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fcf6e7;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 8%;
+    font-family: "Popins", sans-serif;
+  }
+  
+  .vehicle-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f4636;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  .vehicle-option {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #a7ab91;
+    margin-bottom: 10px;
+    width: 100%; /* Ensure vehicle-option takes full width */
+    box-sizing: border-box; /* Added box-sizing */
+  }
+  
+  .vehicle-option-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #a7ab91;
+    border: none;
+    font-weight: bold;
+    color: #5f4636;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+  }
+  
+  .vehicle-option-details {
+    padding: 10px;
+  }
+  
+  .vehicle-option-details label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .vehicle-option-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #e7be9d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .vehicle-option-details input[type="file"] {
+    border: none;
+  }
+  
+  .vehicle-option-details button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #fcf6e7;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .save-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .arrow-icon {
+    font-size: 1.5em;
+    color: #5f4636;
+    font-weight: bold;
+  }

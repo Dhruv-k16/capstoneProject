@@ -1,0 +1,63 @@
+/* BankAccountDetails.css */
+
+.bank-account-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fcf6e7;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 8%;
+    font-family: "Popins", sans-serif;
+  }
+  
+  .bank-account-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f4636;
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  
+  .bank-account-form {
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #a7ab91;
+    width: 100%; /* Ensure bank-account-form takes full width */
+    box-sizing: border-box; /* Added box-sizing */
+  }
+  
+  .bank-account-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .bank-account-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #e7be9d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bank-account-form button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #fcf6e7;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .save-message {
+    color: green;
+    margin-top: 10px;
+  }

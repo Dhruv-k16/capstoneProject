@@ -1,0 +1,80 @@
+/* Payment.css */
+.payment-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcf6e7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-container {
+  background-color: #e7be9d;
+  border-radius: 30px;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-method h1 {
+  color: #5f4636;
+  margin-bottom: 30px;
+}
+
+.payment-option {
+  background-color: #a7ab91;
+  color: #5f4636;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.payment-option.selected {
+  background-color: #ede3d7;
+}
+
+.arrow {
+  font-size: 1.5em;
+}
+
+.pay-button {
+  background-color: #5f4636;
+  color: #fcf6e7;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.payment-option img {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.total-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #5f4636;
+}
+
+.upi-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var jsx_runtime_1 = require("react/jsx-runtime");
+require("./Help.css");
+var navbar_1 = __importDefault(require("./navbar"));
+var Help = function () {
+    return ((0, jsx_runtime_1.jsxs)("div", { className: 'page', children: [(0, jsx_runtime_1.jsx)(navbar_1.default, {}), (0, jsx_runtime_1.jsx)("div", { className: "help-container", children: (0, jsx_runtime_1.jsxs)("div", { className: "help-content", children: [(0, jsx_runtime_1.jsxs)("div", { className: "support-section", children: [(0, jsx_runtime_1.jsx)("div", { className: "support-title", children: (0, jsx_runtime_1.jsx)("u", { children: "SUPPORT" }) }), (0, jsx_runtime_1.jsxs)("ul", { style: { listStyleType: 'square' }, children: [(0, jsx_runtime_1.jsx)("li", { children: "Contacting our support team" }), (0, jsx_runtime_1.jsx)("li", { children: "Email support options" }), (0, jsx_runtime_1.jsx)("li", { children: "Reporting a technical issue" }), (0, jsx_runtime_1.jsxs)("p", { children: ["If you have any questions or need help with your account, please contact our support team. Youcan reach us by email at", (0, jsx_runtime_1.jsx)("a", { href: "LunchWala@gmail.com", children: (0, jsx_runtime_1.jsx)("u", { children: "LunchWala@gmail.com" }) }), " support"] })] })] }), (0, jsx_runtime_1.jsxs)("div", { className: "help-section", children: [(0, jsx_runtime_1.jsx)("div", { className: "help-title", children: (0, jsx_runtime_1.jsx)("u", { children: "HELP" }) }), (0, jsx_runtime_1.jsxs)("ul", { style: { listStyleType: 'square' }, children: [(0, jsx_runtime_1.jsx)("li", { children: "How to sign up and create an account" }), (0, jsx_runtime_1.jsx)("li", { children: "How to log in and reset your password" }), (0, jsx_runtime_1.jsx)("li", { children: "Updating profile details" }), (0, jsx_runtime_1.jsx)("li", { children: "Adding items to your cart" }), (0, jsx_runtime_1.jsx)("li", { children: "Tracking your order in real-time" }), (0, jsx_runtime_1.jsx)("li", { children: "How to add/remove payment options" }), (0, jsx_runtime_1.jsx)("li", { children: "Understanding service charges and taxes" }), (0, jsx_runtime_1.jsx)("li", { children: "How to request a refund for canceled/incorrect orders" }), (0, jsx_runtime_1.jsx)("li", { children: "Reporting missing or incorrect items" })] })] })] }) })] }));
+};
+exports.default = Help;

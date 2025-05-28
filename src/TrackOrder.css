@@ -1,0 +1,106 @@
+/* TrackOrder.css */
+
+.track-order-page {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  background-color: #fcf6e7;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8%;
+  padding-top: 10%;
+}
+
+.track-order-container {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: 600px;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.order-summary,
+.track-details,
+.map-container {
+  background-color: #e7be9d;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.order-summary {
+  height: 200px;
+  width: 800px;
+  position: relative; /* Add relative positioning */
+}
+
+.order-summary h1 {
+  text-align: center;
+  margin-top: -20px;
+  color: #5f4636;
+}
+
+.order-summary p {
+  margin: 2px;
+  color: #5f4636;
+}
+
+.order-summary p:last-child {
+  position: absolute; /* Add absolute positioning */
+  top: 20px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  margin: 0; /* Remove default margin */
+}
+
+.track-details {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  gap: 20px;
+  width: 300px;
+  margin-left: 20px;
+  height: 520px;
+}
+
+.delivery-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.delivery-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.order-status {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-label {
+  font-weight: bold;
+  color: #5f4636;
+}
+
+.status-item {
+  background-color: #fcf6e7;
+  padding: 10px;
+  border-radius: 10px;
+  color: #5f4636;
+}
+
+.map-container img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.map-container {
+  margin-top: 20px;
+  height: 600px;
+  width: 800px;
+}

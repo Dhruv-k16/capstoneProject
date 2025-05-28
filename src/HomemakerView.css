@@ -1,0 +1,218 @@
+.homemaker-view-page {
+    padding: 20px;
+    margin-top: 8%;
+    background-color: #fcf6e7;
+    padding-top: 150px;
+    font-family: "Popins",sans-serif;
+}
+
+.top-panel-view-homemaker {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.homemaker{
+    text-align: center;
+    margin-left: 40%;
+    font-family: "Popins",sans-serif;
+    color: #5f4636;
+    margin-top: -80px;
+}
+
+.homemaker-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.homemaker-select-button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color:#a7ab91;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+    color: #5f4636;
+}
+
+.homemaker-select-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:#a7ab91;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 150px;
+    color: #5f4636;
+
+}
+
+.homemaker-select-item {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.homemaker-select-item:hover {
+    background-color: #f0f0f0;
+}
+
+.middle-panel-view-homemaker {
+    margin-top: 1rem;
+}
+
+.loading-message {
+    text-align: center;
+    color: #6b7280;
+}
+
+.no-homemakers-message {
+    text-align: center;
+    color: #6b7280;
+}
+
+.homemaker-card {
+    transition: all 0.3s ease;
+    border:2px solid #5f4636;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color:#e7be9d;
+    padding: 16px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.homemaker-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(79, 153, 223, 0.5);
+}
+
+.homemaker-card.expanded {
+    border: 2px solid rgba(79, 153, 223, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homemaker-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    color: #5f4636;
+}
+
+.homemaker-name-header {
+    font-size:large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color:#5f4636;
+}
+
+.user-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #6b7280;
+}
+
+.homemaker-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.edit-button {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.edit-button:hover {
+    background-color: rgba(96, 165, 250, 0.2);
+    color: #3b82f6;
+}
+
+.remove-button {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.remove-button:hover {
+    background-color: rgba(220, 38, 38, 0.2);
+    color: #ef4444;
+}
+
+.edit-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #3b82f6;
+}
+
+.remove-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #ef4444;
+}
+
+.homemaker-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5f4636;
+}
+
+.homemaker-info {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color:#5f4636;
+}
+
+.info-label{
+    font-weight: bold;
+    margin-right: 0.25rem;
+}
+
+.mail-icon,
+.phone-icon,
+.map-pin-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.homemaker-extra-details {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.extra-details-title {
+    font-weight: 600;
+    color:black;
+}
+
+.expand-icon {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    color: #6b7280;
+}
+
+.expand-up-icon,
+.expand-down-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}

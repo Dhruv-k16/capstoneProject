@@ -1,0 +1,77 @@
+.page{
+  background-color: #fcf6e7;
+  height: 700px;
+}
+.help-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fcf6e7;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 8%;
+  }
+  
+  .help-content {
+    display: flex;
+    background-color: #e7be9d;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20%;
+    margin-left: 200px;
+    width: 900px;
+  }
+  
+  .support-section, .help-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .support-title, .help-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5f4636;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    color: #5f4636;
+    line-height: 1.6;
+  }
+  
+  .support-section {
+    background-color:#a7ab91;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  li{
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  ul{
+    padding-left: 10px;
+  }
+
+  p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  a{
+    color: #5f4636;
+  }

@@ -1,0 +1,116 @@
+/* Signup.css */
+.Signup-page {
+  background-color: #fcf6e7;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fcf6e7;
+  font-family: "Poppins", sans-serif;
+  margin-top: 8%;
+  
+}
+
+.signup-form {
+  background-color: #e7be9d;
+  padding: 40px;
+  border-radius: 30px;
+  width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 200px;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5f4636;
+  font-family: "Rouge Script", cursive;
+  font-size: 44px;
+  padding-bottom: 40px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #5f4636;
+  font-weight: 600;
+}
+
+.signup-form input {
+  width: calc(100% - 22px);
+  height: 40px; /* Set a specific height */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #a7ab91;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #a7ab91;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.signup-form button {
+  width: 30%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #a7ab91;
+  color: #5f4636;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #929780;
+}
+
+.role-select {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.role-button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7ab91;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #a7ab91;
+  text-align: left;
+  cursor: pointer;
+}
+
+.role-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f0e6d2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.role-option-signup {
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.role-option-signup:hover {
+  background-color: #e0d6c2;
+}

@@ -1,0 +1,67 @@
+/* navbar.css */
+.nav-bar {
+  position: fixed; /* Make it fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  background-color: #fcf6e7; /* Add a background color to make it opaque */
+  z-index: 1000; /* Ensure it stays on top */
+  padding: 0 20px; /* Add some horizontal padding */
+  align-items: center; /* Vertically align items in the navbar */
+}
+
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 50%;
+  border-left: black;
+  border-top: black;
+  border-bottom: black;
+  height: 290px;
+  width: 300px;
+  margin-left: 20px; /* Adjust as needed */
+  margin-top: 8.2%;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5f4636;
+  padding-right: 50px;
+  font-family: "Rouge Script", cursive;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+} 
+
+/*.header-section::after {
+  You might not need this for a fixed navbar 
+   width: 1350px; 
+}*/
+
+.header-button-home{
+  width: 180px;
+  background-color: #e7be9d;
+  border: #e7be9d;
+  color: #5f4636;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 30px;
+}

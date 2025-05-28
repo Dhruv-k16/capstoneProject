@@ -1,0 +1,56 @@
+
+body{
+  font-family: "Popins",sans-serif;
+}
+.upload-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 8%;
+  background-color: #fcf6e7;
+  height: auto;
+  min-height: 80vh;
+}
+
+.title-upload {
+  font-family: "Popins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #5f4636;
+  margin-left: 15%;
+}
+
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: #e7be9d;
+  border-radius: 20px;
+  padding: 20px; /* Adjusted padding */
+  margin-left: 15%;
+  box-sizing: border-box; /* Added box-sizing */
+}
+
+.document-title{
+  width:98%;
+  height: 40px;
+  background-color: #a7ab91;
+  margin: 5px;
+  border-radius: 20px;
+  color: #5f4636;
+  border: none;
+  font-size: large;
+  
+}
+.arrow-icon{
+  height: 30px;
+  width: 30px;
+  padding-left:20px ;
+}
+.document-details{
+  background-color:#fcf6e7;
+  padding:10px;
+  border-radius: 20px;
+}

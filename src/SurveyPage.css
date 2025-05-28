@@ -1,0 +1,257 @@
+.survey-page {
+    padding: 20px;padding: 20px;
+    margin-top: 8%;
+    background-color: #fcf6e7;
+    padding-top: 150px;
+    font-family: "Popins",sans-serif;
+}
+
+.top-panel-survey {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.survey-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.survey-select-button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color:#a7ab91;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100px;
+    color: #5f4636;
+}
+
+.survey-select-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:#a7ab91;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 150px;
+    color: #5f4636;
+}
+
+.survey-select-item {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.survey-select-item:hover {
+    background-color: #f0f0f0;
+}
+
+.survey{
+    text-align: center;
+    margin-left: 40%;
+    font-family: "Popins",sans-serif;
+    color: #5f4636;
+    margin-top: -80px;
+}
+
+.middle-panel-survey {
+    margin-top: 1rem;
+}
+
+.survey-card-wrapper {
+    position: relative;
+}
+
+.survey-card {
+    transition: all 0.3s ease;
+    border: 2px solid #5f4636 ;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-color:#e7be9d;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 5px;
+    margin-top: 2%;
+}
+
+.survey-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(79, 153, 223, 0.5);
+}
+
+.survey-card.expanded {
+    border: 2px solid rgba(79, 153, 223, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.survey-info {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: large;
+    color:#5f4636;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.status-button {
+    border: none;
+    border-radius: 16px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.status-button.pending {
+    background-color: #fef08a;
+    color: #656500;
+}
+
+.status-button.approved {
+    background-color: #ecfccb;
+    color: #15803d;
+}
+
+.expand-icon {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    color: #6b7280;
+}
+
+.survey-details-dropdown {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color:#e7be9d;
+}
+
+.approval-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+}
+
+.form-group input[type="file"] {
+    padding: 0.25rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.approve-button,
+.save-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.approve-button {
+    background-color: #16a34a;
+    color: #fff;
+}
+
+.approve-button:hover {
+    background-color: #15803d;
+}
+
+.save-button {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+.save-button:hover {
+    background-color: #2563eb;
+}
+
+.approved-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f9fafb;
+}
+
+.approved-details h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.approved-details p {
+    margin-bottom: 0.5rem;
+}
+
+.detail-label {
+    font-weight: bold;
+    color: #374151;
+}
+
+.image-preview {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    text-align: center;
+}
+.uploaded-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.form-actions button {
+  pointer-events: auto !important;
+  z-index: 9999 !important;
+  position: relative;
+}

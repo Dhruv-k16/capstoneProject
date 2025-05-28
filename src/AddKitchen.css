@@ -1,0 +1,174 @@
+/* AddKitchen.css */
+.addkitchen-page {
+  background-color: #fcf6e7;
+  height: auto;
+}
+
+.add-kitchen-container {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  padding-top: 150px;
+  background-color: #fcf6e7;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 850px;
+  margin-left: 450px;
+  padding-top: 3px;
+  margin-top: 8%;
+}
+
+.title {
+  font-family: "Poppins", "sans-serif";
+  color: #5f4636;
+  align-items: center;
+  text-align: center;
+  font-weight: 550;
+}
+
+.form-container {
+  background-color: #e7be9d;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5f4636;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #a7ab91;
+  border-radius: 20px;
+  background-color: #a7ab91;
+  margin-bottom: 10px;
+}
+
+.contact-input {
+  display: flex;
+  align-items: center;
+}
+
+.contact-input span {
+  margin-right: 10px;
+  color: #5f4636;
+  font-weight: bold;
+}
+
+.meals-input {
+  display: flex;
+  align-items: center;
+}
+
+meals-input input[type="number"] {
+  width: 50px;
+  margin-right: 10px;
+}
+
+meals-input button {
+  background-color: #a7ab91;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #5f4636;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7ab91;
+  border-radius: 20px;
+  background-color: #a7ab91;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Optional: Style the calendar popup */
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a7ab91;
+  border-radius: 20px;
+  background-color: #a7ab91;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.react-datepicker__navigation {
+  background-color: #e7be9d;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.react-datepicker__day--selected {
+  background-color: #5f4636 !important;
+  color: white !important;
+}
+
+.react-datepicker__header {
+  background-color: #e7be9d;
+}
+
+.react-datepicker__day-name {
+  color: #5f4636;
+}
+
+.react-datepicker__day {
+  color: #5f4636;
+}
+
+.submit-button {
+  background-color: #a7ab91;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #5f4636;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.thank-you-message {
+  text-align: center;
+  color: #5f4636;
+  margin-top: 20px;
+}
+
+.date-picker{
+  padding: 3px auto;
+  width: 300px;
+  
+}
+
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
